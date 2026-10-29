@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090909">
+  <title>Para Kathrin ❤️</title>
+  <style>
+    :root { --red: #e21d3f; --soft-red: #ff637b; --bg: #090909; --panel: #151214; --text: #fff5f6; --muted: #c8b9bd; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0; color: var(--text); background:
+        radial-gradient(ellipse at top, rgba(153, 10, 39, .24), transparent 48%),
+        var(--bg);
+      font-family: Georgia, "Times New Roman", serif; line-height: 1.65;
+    }
+    .hearts { position: fixed; inset: 0; overflow: hidden; pointer-events: none; z-index: 0; }
+    .heart { position: absolute; bottom: -40px; color: rgba(226,29,63,.28); animation: floatUp linear infinite; }
+    @keyframes floatUp { to { transform: translateY(-115vh) rotate(25deg); opacity: 0; } }
+    main { position: relative; z-index: 1; width: min(920px, 92%); margin: auto; }
+    .hero { min-height: 100svh; display: grid; place-items: center; text-align: center; padding: 70px 10px; }
+    .eyebrow { color: var(--soft-red); text-transform: uppercase; letter-spacing: .24em; font: 700 .75rem Arial, sans-serif; }
+    h1 { font-size: clamp(3.2rem, 12vw, 6.8rem); line-height: .98; margin: 20px 0; font-weight: 500; }
+    h1 span { color: var(--red); font-style: italic; }
+    .hero p { color: var(--muted); max-width: 560px; margin: 0 auto 28px; font-size: 1.1rem; }
+    .button { display: inline-block; background: var(--red); color: white; padding: 13px 24px; border-radius: 999px; text-decoration: none; border: 0; cursor: pointer; font: 700 .9rem Arial, sans-serif; box-shadow: 0 8px 28px rgba(226,29,63,.2); }
+    section { padding: 65px 0; }
+    .section-label { color: var(--soft-red); letter-spacing: .2em; text-transform: uppercase; font: 700 .72rem Arial, sans-serif; }
+    h2 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.1; font-weight: 500; margin: 10px 0 25px; }
+    .card { background: linear-gradient(145deg, rgba(35,22,27,.94), rgba(17,15,16,.96)); border: 1px solid rgba(255,99,123,.22); border-radius: 22px; padding: clamp(22px, 5vw, 42px); box-shadow: 0 20px 60px rgba(0,0,0,.25); }
+    .letter { white-space: pre-line; font-size: 1.08rem; color: #f3e8eb; }
+    .signature { color: var(--soft-red); font-style: italic; font-size: 1.4rem; margin-top: 26px; }
+    .gallery { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 12px; }
+    .photo { min-height: 190px; aspect-ratio: 4/5; border-radius: 17px; overflow: hidden; background: #21171a; border: 1px solid rgba(255,99,123,.22); display: grid; place-items: center; color: #d8b9c0; text-align: center; padding: 14px; }
+    .photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .photo small { display: block; font: .8rem Arial, sans-serif; }
+    .counter { display: grid; grid-template-columns: repeat(3,1fr); gap: 10px; margin-top: 24px; }
+    .unit { background: rgba(226,29,63,.09); border: 1px solid rgba(226,29,63,.24); border-radius: 16px; text-align: center; padding: 18px 8px; }
+    .unit strong { display: block; color: var(--soft-red); font: 700 clamp(1.7rem, 6vw, 2.7rem) Arial, sans-serif; }
+    .unit span { color: var(--muted); font: .76rem Arial, sans-serif; text-transform: uppercase; letter-spacing: .1em; }
+    .music-note { color: var(--muted); font-size: .95rem; }
+    audio { width: 100%; margin-top: 12px; }
+    .surprise { text-align: center; }
+    .surprise-message { display: none; margin-top: 22px; font-size: 1.3rem; color: #ffe6eb; }
+    footer { text-align: center; color: #8e7b81; font: .8rem Arial, sans-serif; padding: 35px 0 50px; }
+    @media (max-width: 520px) { .gallery { grid-template-columns: 1fr 1fr; } .photo { min-height: 145px; } .counter { gap: 6px; } .unit { padding: 14px 4px; } }
+  </style>
+</head>
+<body>
+  <div class="hearts" id="hearts" aria-hidden="true"></div>
+  <main>
+    <header class="hero">
+      <div>
+        <div class="eyebrow">Una pequeña sorpresa para ti</div>
+        <h1>Para <span>Kathrin</span></h1>
+        <p>Porque hay personas que llegan a la vida y la hacen más bonita. Tú eres mi persona favorita.</p>
+        <a class="button" href="#carta">Abre tu regalo ❤️</a>
+      </div>
+    </header>
+
+    <section id="carta">
+      <div class="section-label">01 · Desde mi corazón</div>
+      <h2>Una carta para ti</h2>
+      <article class="card">
+        <div class="letter">Mi amor, Kathrin:
+
+No sé si estas palabras alcanzan para explicar todo lo que significas para mí, pero quería regalarte algo que pudieras volver a abrir cada vez que necesitaras recordar cuánto te quiero.
+
+Desde que llegaste a mi vida, hay momentos sencillos que se han vuelto especiales solo porque estás en ellos. Tu sonrisa, tu forma de ser y cada recuerdo que construimos tienen un lugar muy bonito en mi corazón.
+
+No te prometo que todos los días serán perfectos; te prometo que quiero seguir aprendiendo de ti, cuidando lo nuestro y creando recuerdos que algún día podamos mirar con una sonrisa.
+
+Si pudiera elegir de nuevo, me encantaría volver a encontrarte. Gracias por ser tú, por formar parte de mi vida y por darle un significado tan bonito a la palabra amor.
+
+Esta página es pequeña comparada con lo que siento por ti, pero cada detalle está hecho pensando en ti.</div>
+        <div class="signature">Con todo mi amor, para siempre ❤️</div>
+      </article>
+    </section>
+
+    <section id="recuerdos">
+      <div class="section-label">02 · Nuestros momentos</div>
+      <h2>Pequeños recuerdos, amor infinito</h2>
+      <p class="music-note">Cambia estas imágenes por sus fotos favoritas. Consulta las instrucciones debajo del código.</p>
+      <div class="gallery">
+        <div class="photo"><img src="foto1.jpg" alt="Nuestro beso en la playa"></div>
+        <div class="photo"><img src="foto2.jpg" alt="Un selfie juntos"></div>
+        <div class="photo"><img src="foto3.jpg" alt="Un recuerdo divertido juntos"></div>
+        <div class="photo"><img src="foto4.jpg" alt="Un abrazo juntos"></div>
+      </div>
+    </section>
+
+    <section id="tiempo">
+      <div class="section-label">03 · Cada día contigo</div>
+      <h2>El tiempo más bonito</h2>
+      <div class="card">
+        <p>Desde que comenzó nuestra historia, cada día cuenta. ❤️</p>
+        <div class="counter">
+          <div class="unit"><strong id="days">—</strong><span>Días</span></div>
+          <div class="unit"><strong id="hours">—</strong><span>Horas</span></div>
+          <div class="unit"><strong id="minutes">—</strong><span>Minutos</span></div>
+        </div>
+        <p class="music-note" id="counterNote">Personaliza la fecha de inicio en el código para activar el contador.</p>
+      </div>
+    </section>
+
+    <section id="musica">
+      <div class="section-label">04 · Nuestra canción</div>
+      <h2>Un poquito de música</h2>
+      <div class="card">
+        <p>Una canción para acompañar este pequeño regalo.</p>
+        <p class="music-note">Para que suene, agrega un archivo de audio llamado <strong>cancion.mp3</strong> junto a este archivo. La música empieza cuando ella pulsa reproducir.</p>
+        <audio controls preload="none">
+          <source src="cancion.mp3" type="audio/mpeg">
+          Tu navegador no puede reproducir este audio.
+        </audio>
+      </div>
+    </section>
+
+    <section class="surprise">
+      <div class="section-label">05 · Solo para ti</div>
+      <h2>Y todavía hay algo más…</h2>
+      <div class="card">
+        <p>Antes de irte, quiero que recuerdes una cosa: eres muy especial para mí.</p>
+        <button class="button" id="surpriseBtn" type="button">Pulsa para tu sorpresa 💌</button>
+        <div class="surprise-message" id="surpriseMessage">Kathrin, si tuviera que volver a empezar mi historia, volvería a buscarte a ti. Te quiero muchísimo. ❤️</div>
+      </div>
+    </section>
+
+    <footer>Hecho con amor, pensando en Kathrin ❤️</footer>
+  </main>
+
+  <script>
+    // CAMBIA esta fecha por el día en que comenzó su relación.
+    // Formato: AAAA-MM-DDTHH:MM:SS
+    const fechaInicio = "2024-01-01T00:00:00";
+
+    function actualizarContador() {
+      const inicio = new Date(fechaInicio);
+      const ahora = new Date();
+      if (Number.isNaN(inicio.getTime()) || inicio > ahora) {
+        document.getElementById("counterNote").textContent = "Revisa la fecha de inicio en el código.";
+        return;
+      }
+      const totalMinutos = Math.floor((ahora - inicio) / 60000);
+      document.getElementById("days").textContent = Math.floor(totalMinutos / 1440).toLocaleString("es");
+      document.getElementById("hours").textContent = Math.floor((totalMinutos % 1440) / 60).toString();
+      document.getElementById("minutes").textContent = (totalMinutos % 60).toString();
+      document.getElementById("counterNote").textContent = "Y seguimos sumando momentos juntos…";
+    }
+    actualizarContador();
+    setInterval(actualizarContador, 60000);
+
+    document.getElementById("surpriseBtn").addEventListener("click", () => {
+      document.getElementById("surpriseMessage").style.display = "block";
+      document.getElementById("surpriseBtn").textContent = "Un abrazo enorme para ti ❤️";
+    });
+
+    // Corazones decorativos flotantes
+    const heartBox = document.getElementById("hearts");
+    for (let i = 0; i < 18; i++) {
+      const heart = document.createElement("span");
+      heart.className = "heart";
+      heart.textContent = "♥";
+      heart.style.left = (Math.random() * 100) + "%";
+      heart.style.animationDuration = (12 + Math.random() * 16) + "s";
+      heart.style.animationDelay = (-Math.random() * 25) + "s";
+      heart.style.fontSize = (12 + Math.random() * 22) + "px";
+      heartBox.appendChild(heart);
+    }
+  </script>
+</body>
+</html>
